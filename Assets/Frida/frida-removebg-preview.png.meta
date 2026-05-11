@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: cd53fdc64d3e09046a330ab4938b87ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3992819635552292256
+    second: frida-removebg-preview_0
+  - first:
+      213: 4883224711584003572
+    second: frida-removebg-preview_1
+  - first:
+      213: -5201791629748618540
+    second: frida-removebg-preview_2
+  - first:
+      213: 7323379236366278673
+    second: frida-removebg-preview_3
+  - first:
+      213: 2157860093395212007
+    second: frida-removebg-preview_4
+  - first:
+      213: -7372057884233362641
+    second: frida-removebg-preview_5
+  - first:
+      213: 7041908855278381342
+    second: frida-removebg-preview_6
+  - first:
+      213: 8801701759401821601
+    second: frida-removebg-preview_7
+  - first:
+      213: -5175565262744572304
+    second: frida-removebg-preview_8
+  - first:
+      213: -390245259626061794
+    second: frida-removebg-preview_9
+  - first:
+      213: 2226601866004995652
+    second: frida-removebg-preview_10
+  - first:
+      213: -915086719583005551
+    second: frida-removebg-preview_11
+  - first:
+      213: -5657093303058889935
+    second: frida-removebg-preview_12
+  - first:
+      213: 7101080435970784181
+    second: frida-removebg-preview_13
+  - first:
+      213: 7884109845177538029
+    second: frida-removebg-preview_14
+  - first:
+      213: -2173013770328144919
+    second: frida-removebg-preview_15
+  - first:
+      213: 9155638713709461652
+    second: frida-removebg-preview_16
+  - first:
+      213: -1918441318419691874
+    second: frida-removebg-preview_17
+  - first:
+      213: 1477677758363572517
+    second: frida-removebg-preview_18
+  - first:
+      213: 8649429650736479029
+    second: frida-removebg-preview_19
+  - first:
+      213: 7437978281936327217
+    second: frida-removebg-preview_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frida-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 350
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06273b242b7a698c0800000000000000
+      internalID: -3992819635552292256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 303
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5bf54b003b4c340800000000000000
+      internalID: 4883224711584003572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 255
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dabb31b2168fc7b0800000000000000
+      internalID: -5201791629748618540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 255
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11065135d9ed1a560800000000000000
+      internalID: 7323379236366278673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 255
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e610d5725242fd10800000000000000
+      internalID: 2157860093395212007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 234
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2317a2c96031b990800000000000000
+      internalID: -7372057884233362641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 234
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19ab835bc2e9b160800000000000000
+      internalID: 7041908855278381342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 194
+        width: 5
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a58314ed1de52a70800000000000000
+      internalID: 8801701759401821601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 136
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e224a90d2bc28b0800000000000000
+      internalID: -5175565262744572304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 136
+        width: 68
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1065b40102959af0800000000000000
+      internalID: -390245259626061794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 136
+        width: 69
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e137f999a76ee10800000000000000
+      internalID: 2226601866004995652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 137
+        width: 69
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194d3941a75fc43f0800000000000000
+      internalID: -915086719583005551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 136
+        width: 71
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1330fe90d97fd71b0800000000000000
+      internalID: -5657093303058889935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 136
+        width: 68
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbb38b880b1c8260800000000000000
+      internalID: 7101080435970784181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 136
+        width: 70
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de597f3e12cf96d60800000000000000
+      internalID: 7884109845177538029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 136
+        width: 68
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e30f8f2d77e7d1e0800000000000000
+      internalID: -2173013770328144919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 119
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4908776c6ec5f0f70800000000000000
+      internalID: 9155638713709461652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 29
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96892509c35065e0800000000000000
+      internalID: -1918441318419691874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 11
+        width: 79
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52991c79714c18410800000000000000
+      internalID: 1477677758363572517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 24
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bf0e1d072f80870800000000000000
+      internalID: 8649429650736479029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frida-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 10
+        width: 78
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13292edd6d1093760800000000000000
+      internalID: 7437978281936327217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 23b8c67591d2fbe41be8dedaeef8729f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      frida-removebg-preview_0: -3992819635552292256
+      frida-removebg-preview_1: 4883224711584003572
+      frida-removebg-preview_10: 2226601866004995652
+      frida-removebg-preview_11: -915086719583005551
+      frida-removebg-preview_12: -5657093303058889935
+      frida-removebg-preview_13: 7101080435970784181
+      frida-removebg-preview_14: 7884109845177538029
+      frida-removebg-preview_15: -2173013770328144919
+      frida-removebg-preview_16: 9155638713709461652
+      frida-removebg-preview_17: -1918441318419691874
+      frida-removebg-preview_18: 1477677758363572517
+      frida-removebg-preview_19: 8649429650736479029
+      frida-removebg-preview_2: -5201791629748618540
+      frida-removebg-preview_20: 7437978281936327217
+      frida-removebg-preview_3: 7323379236366278673
+      frida-removebg-preview_4: 2157860093395212007
+      frida-removebg-preview_5: -7372057884233362641
+      frida-removebg-preview_6: 7041908855278381342
+      frida-removebg-preview_7: 8801701759401821601
+      frida-removebg-preview_8: -5175565262744572304
+      frida-removebg-preview_9: -390245259626061794
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

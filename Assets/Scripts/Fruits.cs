@@ -1,0 +1,40 @@
+using UnityEngine;
+
+public class Fruits : MonoBehaviour
+{
+    private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
+    private CircleCollider2D circle; // Reference to the Collider2D component 
+    public GameObject collected;
+    public int scoreValue = 10; // The score value of the fruit
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        circle = GetComponent<CircleCollider2D>();
+        collected.SetActive(false); // Ensure the collected effect is hidden at the start
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    void OnTriggerEnter2D(Collider2D collider) {
+        if (collider.gameObject.tag == "Player") {
+            Debug.Log("Frida collected a fruit!");
+        
+            spriteRenderer.enabled = false; // Hide the fruit's sprite
+            circle.enabled = false; // Disable the fruit's collider
+
+            collected.SetActive(true); // Show the collected fruit effect
+
+            GameController.instance.score += scoreValue; // Increase the player's score by the fruit's value
+
+            GameController.instance.UpdateScoreText(); // Update the score text in the UI
+
+            Destroy(gameObject, 0.5f); // Destroy the fruit after a short delay to allow the effect to play
+        }
+    }
+}
