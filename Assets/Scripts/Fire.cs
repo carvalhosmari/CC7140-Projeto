@@ -3,12 +3,12 @@ using UnityEngine;
 public class Fire : MonoBehaviour
 {
     private Animator animator;
-    private CapsuleCollider2D collider;
+    private CapsuleCollider2D coll;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         animator = GetComponent<Animator>(); // Get the Animator component attached to the player
-        collider = GetComponent<CapsuleCollider2D>(); // Get the CapsuleCollider2D component attached to the fire
+        coll = GetComponent<CapsuleCollider2D>(); // Get the CapsuleCollider2D component attached to the fire
     }
 
     // Update is called once per frame
@@ -28,7 +28,7 @@ public class Fire : MonoBehaviour
     }
 
     void AtivarCollider() {
-        collider.enabled = true; // Enable the collider to allow the player to be affected by the fire
+        coll.enabled = true; // Enable the collider to allow the player to be affected by the fire
     }
 
     void OnTriggerEnter2D(Collider2D collider) {

@@ -5,35 +5,48 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public int score = 0; // Player's score
-    public static GameController instance; // Singleton instance of the GameController
+    public int score = 0;
+    public static GameController instance;
     public TMP_Text scoreText;
     public GameObject gameOverPanel;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [Header("Timer (Timed Mode only)")]
+    public TimerController timerController;
+
     void Start()
     {
-        instance = this; // Set the singleton instance to this GameController
+        instance = this;
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
 
+    /// <summary>Updates the score HUD with the current score value.</summary>
     public void UpdateScoreText()
     {
-        scoreText.text = score.ToString(); // Update the score text with the current score
+        scoreText.text = score.ToString();
     }
 
+    /// <summary>Stops the timer and activates the game over panel.</summary>
     public void GameOver()
     {
-        gameOverPanel.SetActive(true); // Activate the game over panel
+        if (timerController != null)
+            timerController.StopTimer();
+
+        gameOverPanel.SetActive(true);
+    }
+
+    /// <summary>Stops the timer when the player completes the level.</summary>
+    public void LevelCompleted()
+    {
+        if (timerController != null)
+            timerController.StopTimer();
     }
 
     public void RestartGame(string sceneName)
     {
-        SceneManager.LoadScene(sceneName); // Reload the specified scene to restart the game
+        SceneManager.LoadScene(sceneName);
     }
 }
