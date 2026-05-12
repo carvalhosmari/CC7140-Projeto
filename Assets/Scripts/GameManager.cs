@@ -11,10 +11,11 @@ public class GameManager : MonoBehaviour
 
     public GameMode CurrentGameMode { get; private set; } = GameMode.Free;
 
-    public const float LevelTimeLimit = 30f;
+    public const float LevelTimeLimit = 45f;
 
-    void Awake()
+    void Start()
     {
+        Time.timeScale = 1;
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -27,7 +28,8 @@ public class GameManager : MonoBehaviour
 
     /// <summary>Sets the game mode before loading the first level.</summary>
     public void SetGameMode(GameMode mode)
-    {
+    {   
+        // Destroy(gameObject);
         CurrentGameMode = mode;
     }
 }

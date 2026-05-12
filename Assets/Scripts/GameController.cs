@@ -45,8 +45,9 @@ public class GameController : MonoBehaviour
             timerController.StopTimer();
     }
 
-    public void RestartGame(string sceneName)
+    public void RestartGame()
     {
-        SceneManager.LoadScene(sceneName);
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Menu");
     }
 }

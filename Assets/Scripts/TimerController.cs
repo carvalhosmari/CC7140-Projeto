@@ -47,7 +47,6 @@ public class TimerController : MonoBehaviour
             timeRemaining = 0f;
             isRunning = false;
             GameController.instance.GameOver();
-            SceneManager.LoadScene("Menu"); // Return to main menu on game over
         }
     }
 
