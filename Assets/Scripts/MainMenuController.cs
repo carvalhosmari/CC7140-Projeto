@@ -12,6 +12,7 @@ public class MainMenuController : MonoBehaviour
     public void OnFreeModeSelected()
     {
         EnsureGameManager();
+        GameManager.Instance.ResetLives();
         GameManager.Instance.SetGameMode(GameManager.GameMode.Free);
         SceneManager.LoadScene(FirstLevelSceneName);
     }
@@ -20,6 +21,7 @@ public class MainMenuController : MonoBehaviour
     public void OnTimedModeSelected()
     {
         EnsureGameManager();
+        GameManager.Instance.ResetLives();
         GameManager.Instance.SetGameMode(GameManager.GameMode.Timed);
         SceneManager.LoadScene(FirstLevelSceneName);
     }

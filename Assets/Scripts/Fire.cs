@@ -31,11 +31,11 @@ public class Fire : MonoBehaviour
         coll.enabled = true; // Enable the collider to allow the player to be affected by the fire
     }
 
-    void OnTriggerEnter2D(Collider2D collider) {
-        if (collider.gameObject.tag == "Player") {
-            Debug.Log("Player hit fire!"); // Log a message when the player hits fire
-            GameController.instance.GameOver(); // Call the GameOver method in the GameController when hitting fire
-            Destroy(collider.gameObject); // Destroy the player game object when hitting fire
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("Player"))
+        {
+            GameController.instance.TakeDamage();
         }
     }
 }

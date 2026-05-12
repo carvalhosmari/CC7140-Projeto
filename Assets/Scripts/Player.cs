@@ -72,22 +72,24 @@ public class Player : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collider) {
-        if (collider.gameObject.tag == "Spike") {
-            Debug.Log("Player hit a spike!"); // Log a message when the player hits a spike
-            GameController.instance.GameOver(); // Call the GameOver method in the GameController when hitting a spike
-            Destroy(gameObject); // Destroy the player game object when hitting a spike
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("Spike") ||
+            collider.gameObject.CompareTag("Saw")   ||
+            collider.gameObject.CompareTag("Dog"))
+        {
+            GameController.instance.TakeDamage();
         }
+    }
 
-        if (collider.gameObject.tag == "Saw") {
-            GameController.instance.GameOver(); // Call the GameOver method in the GameController when hitting a saw
-            Destroy(gameObject); // Destroy the player game object when hitting a saw
-        }
-
-        if (collider.gameObject.tag == "Dog") {
-            GameController.instance.GameOver(); // Call the GameOver method in the GameController when hitting a dog
-            Destroy(gameObject); // Destroy the player game object when hitting a dog
-        }
+    /// <summary>Resets physics and animation state after a respawn.</summary>
+    public void ResetState()
+    {
+        rb.linearVelocity = Vector2.zero;
+        isJumping = false;
+        doubleJump = false;
+        animator.SetBool("walk", false);
+        animator.SetBool("jump", false);
     }
 
     void OnCollisionEnter2D(Collision2D collision)

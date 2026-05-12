@@ -13,6 +13,25 @@ public class GameManager : MonoBehaviour
 
     public const float LevelTimeLimit = 45f;
 
+    public const int MaxLives = 3;
+
+    /// <summary>Lives remaining across the current run. Reset when starting a new game.</summary>
+    public int CurrentLives { get; private set; } = MaxLives;
+
+    /// <summary>Decrements one life. Returns true if any lives remain.</summary>
+    public bool ConsumeLife()
+    {
+        if (CurrentLives > 0)
+            CurrentLives--;
+        return CurrentLives > 0;
+    }
+
+    /// <summary>Resets lives to the maximum (call when starting a new game).</summary>
+    public void ResetLives()
+    {
+        CurrentLives = MaxLives;
+    }
+
     void Awake()
     {
         // Restore timescale in case it was paused by a previous session.
