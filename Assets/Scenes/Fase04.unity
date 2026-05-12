@@ -8172,7 +8172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   score: 0
-  scoreText: {fileID: 2142918737}
+  scoreText: {fileID: 261277093}
   gameOverPanel: {fileID: 396492613}
   timerController: {fileID: 402512370}
 --- !u!4 &402512369

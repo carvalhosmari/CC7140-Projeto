@@ -13,12 +13,16 @@ public class GameManager : MonoBehaviour
 
     public const float LevelTimeLimit = 45f;
 
-    void Start()
+    void Awake()
     {
+        // Restore timescale in case it was paused by a previous session.
         Time.timeScale = 1;
+
         if (Instance != null && Instance != this)
         {
-            Destroy(gameObject);
+            // Destroy only this component, not the whole GameObject.
+            // Other components on this object (e.g. MainMenuController) must remain alive.
+            Destroy(this);
             return;
         }
 
