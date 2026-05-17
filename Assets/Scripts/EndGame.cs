@@ -10,6 +10,8 @@ public class EndGame : MonoBehaviour
         {
             GameManager.Instance.ResetLives();
             GameManager.Instance.ResetScore();
+
+            AudioManager.Instance?.Play(AudioManager.Instance.clipVictory);
         }
     }
 

@@ -103,7 +103,7 @@ public class Player : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         // Handle collision logic here (e.g., check for ground to allow jumping)
-        if (collision.gameObject.layer == 8)
+        if (collision.gameObject.layer == 8 || collision.gameObject.CompareTag("Wall"))
         {
             // Allow the player to jump again
             isJumping = false;
@@ -114,7 +114,7 @@ public class Player : MonoBehaviour
     void OnCollisionExit2D(Collision2D collision)
     {
         // Handle logic for when the player leaves a collision (e.g., stop allowing jumps)
-        if (collision.gameObject.layer == 8)
+        if (collision.gameObject.layer == 8 || collision.gameObject.CompareTag("Wall"))
         {
             isJumping = true;
         }

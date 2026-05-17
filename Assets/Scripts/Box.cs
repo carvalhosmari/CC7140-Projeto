@@ -10,6 +10,9 @@ public class Box : MonoBehaviour
     public int health = 5; // Amount of damage the box will deal to the player
     public GameObject wall; // Reference to the wall GameObject
     public GameObject collected;
+    public GameObject arrow; // Reference to the explosion effect GameObject
+    public bool hasWall;
+    public bool hasArrow;
 
     // Guard to prevent the destruction block from running more than once.
     private bool isDestroyed = false;
@@ -17,11 +20,22 @@ public class Box : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        if (hasWall) {
+            wall.SetActive(true); // Ensure the wall is active at the start if it exists
+        } else {
+            wall.SetActive(false); // Ensure the wall is inactive at the start if it doesn't exist
+        }
+
+        if (hasArrow) {
+            arrow.SetActive(true); // Ensure the arrow is active at the start if it exists
+        } else {
+            arrow.SetActive(false); // Ensure the arrow is inactive at the start if it doesn't exist
+        }
+
         spriteRenderer = GetComponent<SpriteRenderer>();
         collider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>(); // Get the Animator component attached to the box
-        wall.SetActive(true);
-        collected.SetActive(false); // Ensure the collected box effect is hidden at the start
+        collected.SetActive(false); // Ensure the collected box effect is hidden at the start        
     }
 
     // Update is called once per frame
@@ -29,15 +43,24 @@ public class Box : MonoBehaviour
     {   
         if (health <= 0 && !isDestroyed) 
         {
+            if (!hasWall) {
+                wall.SetActive(true); // Deactivate the wall when the box is destroyed  
+                Debug.Log("Wall activated!");            
+            } else {
+                wall.SetActive(false); // Activate the wall when the box is destroyed
+            }
+
+            if (hasArrow) {
+                arrow.SetActive(false); // Deactivate the arrow when the box is destroyed
+            } 
+            
             isDestroyed = true;
             spriteRenderer.enabled = false; // Hide the box's sprite when its health reaches 0
             collider.enabled = false; // Disable the box's collider when its health reaches 0
             collected.SetActive(true); // Show the collected box effect
-            wall.SetActive(false); // Deactivate the wall when the box is destroyed
 
             AudioManager.Instance?.Play(AudioManager.Instance.clipExplosion);
-
-            Destroy(gameObject, .5f); // Destroy the box when its health reaches 0
+            Destroy(gameObject, .5f); // Destroy the box when its health reaches 0                        
         } 
     }
 

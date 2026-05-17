@@ -20,6 +20,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip clipMainMenu;  // main_menu/call_to_adventure_loop
     public AudioClip clipGame;      // game/status_quo_loop
     public AudioClip clipGameOver;  // game_over/crisis_loop
+    public AudioClip clipVictory;   // victory/victory_loop
 
     [Header("Music Settings")]
     [Range(0f, 1f)]

@@ -10,6 +10,7 @@ public class TimerController : MonoBehaviour
 {
     [Tooltip("Text element that displays the remaining time.")]
     public TMP_Text timerText;
+    public GameObject timerIcon;
 
     private float timeRemaining;
     private bool isRunning = false;
@@ -26,11 +27,18 @@ public class TimerController : MonoBehaviour
 
             if (timerText != null)
                 timerText.gameObject.SetActive(true);
+            
+            if (timerIcon != null)
+                timerIcon.SetActive(true);
+            
         }
         else
         {
             if (timerText != null)
                 timerText.gameObject.SetActive(false);
+
+            if (timerIcon != null)                
+                timerIcon.SetActive(false);
         }
     }
 
@@ -41,6 +49,7 @@ public class TimerController : MonoBehaviour
         timeRemaining -= Time.deltaTime;
 
         UpdateTimerDisplay();
+        ShowTimerIcon();
 
         if (timeRemaining <= 0f)
         {
@@ -65,5 +74,11 @@ public class TimerController : MonoBehaviour
 
         // Visual warning when time is low
         timerText.color = seconds <= 10 ? Color.red : Color.white;
+    }
+
+    void ShowTimerIcon()
+    {
+        if (timerIcon != null)
+            timerIcon.SetActive(true);
     }
 }
