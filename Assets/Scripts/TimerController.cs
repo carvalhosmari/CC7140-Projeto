@@ -61,7 +61,7 @@ public class TimerController : MonoBehaviour
         if (timerText == null) return;
 
         int seconds = Mathf.CeilToInt(timeRemaining);
-        timerText.text = $"Tempo: {seconds}s";
+        timerText.text = $"{seconds}s";
 
         // Visual warning when time is low
         timerText.color = seconds <= 10 ? Color.red : Color.white;

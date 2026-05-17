@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public static GameController instance;
+    public static GameController instance { get; private set; }
 
     [Header("Score")]
     public int score = 0;
@@ -19,6 +19,10 @@ public class GameController : MonoBehaviour
     [Header("Timer (Timed Mode only)")]
     public TimerController timerController;
 
+    // Guard flags — prevent multiple calls while a scene transition or game over is pending.
+    private bool isGameOver = false;
+    private bool isTransitioning = false;
+
     void Start()
     {
         instance = this;
@@ -30,13 +34,19 @@ public class GameController : MonoBehaviour
             go.AddComponent<GameManager>();
         }
 
+        // Restore accumulated score from previous phases and snapshot the phase start.
+        score = GameManager.Instance.AccumulatedScore;
+        GameManager.Instance.BeginPhase();
+
+        UpdateScoreText();
         UpdateLivesText();
     }
 
     /// <summary>Updates the score HUD with the current score value.</summary>
     public void UpdateScoreText()
     {
-        scoreText.text = score.ToString();
+        if (scoreText != null)
+            scoreText.text = score.ToString();
     }
 
     /// <summary>
@@ -45,6 +55,9 @@ public class GameController : MonoBehaviour
     /// </summary>
     public void TakeDamage()
     {
+        // Ignore if we are already handling a transition or game over.
+        if (isGameOver || isTransitioning) return;
+
         bool hasLivesRemaining = GameManager.Instance.ConsumeLife();
         UpdateLivesText();
 
@@ -54,6 +67,9 @@ public class GameController : MonoBehaviour
         }
         else
         {
+            isTransitioning = true;
+            // Roll score back to what it was at the start of this phase before reloading.
+            GameManager.Instance.RollbackScore();
             ReloadScene();
         }
     }
@@ -67,31 +83,44 @@ public class GameController : MonoBehaviour
     /// <summary>Stops the timer and activates the Game Over panel.</summary>
     public void GameOver()
     {
+        if (isGameOver) return;
+        isGameOver = true;
+
         if (timerController != null)
             timerController.StopTimer();
 
         GameManager.Instance.ResetLives();
+        GameManager.Instance.ResetScore();
         gameOverPanel.SetActive(true);
     }
 
-    /// <summary>Stops the timer when the player completes the level.</summary>
+    /// <summary>Persists the current score and stops the timer when the player completes the phase.</summary>
     public void LevelCompleted()
     {
+        if (isTransitioning) return;
+        isTransitioning = true;
+
+        GameManager.Instance.SaveScore(score);
+
         if (timerController != null)
             timerController.StopTimer();
     }
 
-    /// <summary>Resets lives and returns to the main menu.</summary>
+    /// <summary>Resets all persistent state and returns to the main menu.</summary>
     public void RestartGame()
     {
+        isGameOver = false;
+        isTransitioning = false;
         Time.timeScale = 1;
         GameManager.Instance.ResetLives();
+        GameManager.Instance.ResetScore();
         SceneManager.LoadScene("Menu");
+        Debug.Log("Restarting game...");
     }
 
     private void UpdateLivesText()
     {
         if (livesText != null && GameManager.Instance != null)
-            livesText.text = $"Vidas: {GameManager.Instance.CurrentLives}";
+            livesText.text = $"{GameManager.Instance.CurrentLives}";
     }
 }

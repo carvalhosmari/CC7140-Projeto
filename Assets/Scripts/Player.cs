@@ -9,6 +9,10 @@ public class Player : MonoBehaviour
     private Animator animator; // Reference to the Animator component
     public bool isJumping = false; // Flag to check if the player is currently jumping
     public bool doubleJump = false; // Flag to check if the player can perform a double jump
+
+    // Guard to prevent multiple TakeDamage calls before the scene reloads.
+    private bool isDead = false;
+    private bool isFlying = false; // Flag to check if the player is flying 
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -34,8 +38,7 @@ public class Player : MonoBehaviour
         // Create a movement vector based on the input
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
-        // Move the player by applying the movement vector multiplied by speed and deltaTime
-        transform.position += movement * speed * Time.deltaTime;
+        rb.linearVelocity = new Vector2(moveHorizontal * speed, rb.linearVelocity.y);
 
         if (moveHorizontal > 0f) {
             animator.SetBool("walk", true); 
@@ -52,7 +55,7 @@ public class Player : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !isFlying)
         {
             if (!isJumping)
             {
@@ -74,10 +77,13 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
+        if (isDead) return;
+
         if (collider.gameObject.CompareTag("Spike") ||
             collider.gameObject.CompareTag("Saw")   ||
             collider.gameObject.CompareTag("Dog"))
         {
+            isDead = true;
             GameController.instance.TakeDamage();
         }
     }
@@ -109,6 +115,22 @@ public class Player : MonoBehaviour
         if (collision.gameObject.layer == 8)
         {
             isJumping = true;
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("Fan"))
+        {
+            isFlying = true; // Set flying flag to true when on a flying platform
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("Fan"))
+        {
+            isFlying = false; // Set flying flag to false when leaving a flying platform
         }
     }
 }

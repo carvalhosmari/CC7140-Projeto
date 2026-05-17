@@ -13,6 +13,7 @@ public class MainMenuController : MonoBehaviour
     {
         EnsureGameManager();
         GameManager.Instance.ResetLives();
+        GameManager.Instance.ResetScore();
         GameManager.Instance.SetGameMode(GameManager.GameMode.Free);
         SceneManager.LoadScene(FirstLevelSceneName);
     }
@@ -22,6 +23,7 @@ public class MainMenuController : MonoBehaviour
     {
         EnsureGameManager();
         GameManager.Instance.ResetLives();
+        GameManager.Instance.ResetScore();
         GameManager.Instance.SetGameMode(GameManager.GameMode.Timed);
         SceneManager.LoadScene(FirstLevelSceneName);
     }

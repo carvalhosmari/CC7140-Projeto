@@ -1,0 +1,1735 @@
+fileFormatVersion: 2
+guid: 862b40d28afa3c94fbc03f6652069a5e
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211149
+  packageName: FREE Pixel Art Kit
+  packageVersion: 1.0
+  assetPath: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/TileMap/Sprites/S_itens.png
+  uploadId: 474816
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9011112303086534863
+    second: S_itens 2_0
+  - first:
+      213: -8866914853683811199
+    second: S_itens 2_1
+  - first:
+      213: 5308990275766588124
+    second: S_itens 2_2
+  - first:
+      213: 3097528727947826081
+    second: S_itens 2_3
+  - first:
+      213: 3838774224373869199
+    second: S_itens 2_4
+  - first:
+      213: -3063973124780270436
+    second: S_itens 2_5
+  - first:
+      213: 8559312415210884267
+    second: S_itens 2_6
+  - first:
+      213: 6651550509990678259
+    second: S_itens 2_7
+  - first:
+      213: 2861175646153056392
+    second: S_itens 2_8
+  - first:
+      213: -437967280569691419
+    second: S_itens 2_9
+  - first:
+      213: -7418227487871654071
+    second: S_itens 2_10
+  - first:
+      213: 9100405659699639018
+    second: S_itens 2_11
+  - first:
+      213: -6797302861999542686
+    second: S_itens 2_12
+  - first:
+      213: -4015398104974487148
+    second: S_itens 2_13
+  - first:
+      213: 7144461970232622469
+    second: S_itens 2_14
+  - first:
+      213: -3927402730536681037
+    second: S_itens 2_15
+  - first:
+      213: 2389173129006848570
+    second: S_itens 2_16
+  - first:
+      213: 3767509892586047507
+    second: S_itens 2_17
+  - first:
+      213: 9135290836982129405
+    second: S_itens 2_18
+  - first:
+      213: -8809828132392210723
+    second: S_itens 2_19
+  - first:
+      213: 7032438533087545838
+    second: S_itens 2_20
+  - first:
+      213: 346759190954941021
+    second: S_itens 2_21
+  - first:
+      213: -998680296586514410
+    second: S_itens 2_22
+  - first:
+      213: -8231984339465249734
+    second: S_itens 2_23
+  - first:
+      213: 2105446150532771386
+    second: S_itens 2_24
+  - first:
+      213: -5198123905266382259
+    second: S_itens 2_25
+  - first:
+      213: -7061651328571757287
+    second: S_itens 2_26
+  - first:
+      213: 2496462160426239928
+    second: S_itens 2_27
+  - first:
+      213: 7463745684350701075
+    second: S_itens 2_28
+  - first:
+      213: -5180091883136634943
+    second: S_itens 2_29
+  - first:
+      213: -2411413963086398226
+    second: S_itens 2_30
+  - first:
+      213: -8872251853502552044
+    second: S_itens 2_31
+  - first:
+      213: -7213640813885616309
+    second: S_itens 2_32
+  - first:
+      213: 317245461495853918
+    second: S_itens 2_33
+  - first:
+      213: 1755911032806187032
+    second: S_itens 2_34
+  - first:
+      213: -7794360187713473945
+    second: S_itens 2_35
+  - first:
+      213: 1146510666235300713
+    second: S_itens 2_36
+  - first:
+      213: -8234513845462684532
+    second: S_itens 2_37
+  - first:
+      213: -3233218061899519303
+    second: S_itens 2_38
+  - first:
+      213: 3079371950525736371
+    second: S_itens 2_39
+  - first:
+      213: -7877950501009860776
+    second: S_itens 2_40
+  - first:
+      213: -2965519727165610408
+    second: S_itens 2_41
+  - first:
+      213: 2704201789207250504
+    second: S_itens 2_42
+  - first:
+      213: -2318276664295988381
+    second: S_itens 2_43
+  - first:
+      213: -8040332049230747898
+    second: S_itens 2_44
+  - first:
+      213: 8532858054534605639
+    second: S_itens 2_45
+  - first:
+      213: -8073815575943648589
+    second: S_itens 2_46
+  - first:
+      213: 4670700000708193415
+    second: S_itens 2_47
+  - first:
+      213: -449107852198571410
+    second: S_itens 2_48
+  - first:
+      213: 8036232394348602137
+    second: S_itens 2_49
+  - first:
+      213: 4431049466965033447
+    second: S_itens 2_50
+  - first:
+      213: 1011852458102588344
+    second: S_itens 2_51
+  - first:
+      213: -1809742862881062934
+    second: S_itens 2_52
+  - first:
+      213: 7802876241939312766
+    second: S_itens 2_53
+  - first:
+      213: -6839680747314931535
+    second: S_itens 2_54
+  - first:
+      213: 4445536223064164958
+    second: S_itens 2_55
+  - first:
+      213: -2861674888303262115
+    second: S_itens 2_56
+  - first:
+      213: -6721876331622676835
+    second: S_itens 2_57
+  - first:
+      213: -7020249139787012698
+    second: S_itens 2_58
+  - first:
+      213: -920816198671826742
+    second: S_itens 2_59
+  - first:
+      213: 4400401715622258029
+    second: S_itens 2_60
+  - first:
+      213: -2904171541335698931
+    second: S_itens 2_61
+  - first:
+      213: -3151927882528563032
+    second: S_itens 2_62
+  - first:
+      213: 7061978397125039018
+    second: S_itens 2_63
+  - first:
+      213: 5375874048278665697
+    second: S_itens 2_64
+  - first:
+      213: -3531622226345325033
+    second: S_itens 2_65
+  - first:
+      213: -6212972661170453208
+    second: S_itens 2_66
+  - first:
+      213: 1159214818287602650
+    second: S_itens 2_67
+  - first:
+      213: 63066895760470856
+    second: S_itens 2_68
+  - first:
+      213: 7590838682286993775
+    second: S_itens 2_69
+  - first:
+      213: -2175421723819871001
+    second: S_itens 2_70
+  - first:
+      213: 5248490926752926023
+    second: S_itens 2_71
+  - first:
+      213: -2943283619382172668
+    second: S_itens 2_72
+  - first:
+      213: -3684827567056827795
+    second: S_itens 2_73
+  - first:
+      213: 6402279330518341766
+    second: S_itens 2_74
+  - first:
+      213: 511047070407591104
+    second: S_itens 2_75
+  - first:
+      213: 1658855375001513126
+    second: S_itens 2_76
+  - first:
+      213: -209950847787651628
+    second: S_itens 2_77
+  - first:
+      213: -6847684533737713649
+    second: S_itens 2_78
+  - first:
+      213: 1234590316693746033
+    second: S_itens 2_79
+  - first:
+      213: -8492051968732266932
+    second: S_itens 2_80
+  - first:
+      213: 1895002085458192604
+    second: S_itens 2_81
+  - first:
+      213: -1099378986194793316
+    second: S_itens 2_82
+  - first:
+      213: 104221689421749608
+    second: S_itens 2_83
+  - first:
+      213: -2588710889446998796
+    second: S_itens 2_84
+  - first:
+      213: 1004060712333964
+    second: S_itens 2_85
+  - first:
+      213: 950193955645812272
+    second: S_itens 2_86
+  - first:
+      213: -4785036133065615453
+    second: S_itens 2_87
+  - first:
+      213: 7392561149370812073
+    second: S_itens 2_88
+  - first:
+      213: -8120065389397444788
+    second: S_itens 2_89
+  - first:
+      213: -1893980903697000977
+    second: S_itens 2_90
+  - first:
+      213: -3425149731901475208
+    second: S_itens 2_91
+  - first:
+      213: 1122890436139462354
+    second: S_itens 2_92
+  - first:
+      213: 4107187715168036436
+    second: S_itens 2_93
+  - first:
+      213: 5154703675199173452
+    second: S_itens 2_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: S_itens_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 118
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2894a4f01d378d4ba2b6d4a1de6e54e
+      internalID: -262774790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 116
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fd61b15707c0e41937cd64280b6ce3
+      internalID: -487087440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 118
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e66a45318c53ce46b39e80aa1f0cf26
+      internalID: 276256856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 116
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184036b2f47e31d4b9547f13729468df
+      internalID: 1914331754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 120
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e78a3894a0bac54397da5119d9f4d06
+      internalID: 739162210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_5
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 118
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082d1bb43e40b5c49b7e6200f048f04b
+      internalID: 2042541609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 118
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc098019d09c4d4b8d2f1ee83a91533
+      internalID: -1634070695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 116
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4617a8f58ab7646a08b72ce9a28bcd
+      internalID: -636403922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 118
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66660845f49e6141aa5cb841d4e07fb
+      internalID: 1495098133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_9
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 116
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aaa7162003482a42a22fcb13e7b899b
+      internalID: -430100231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 120
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6611f71d07b5fdb4da28118f0b721d4e
+      internalID: 943168351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 118
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b82cf28182e3e3449ab832821f70b51
+      internalID: -1955028118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_12
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 97
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a7099a5653f7d4595930a00d867896
+      internalID: 426362456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_13
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 99
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d808c165b205854792dd06b7c4875bc
+      internalID: -1498145580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_14
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 101
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21715e76ee421b14ebfbe87befed7f2f
+      internalID: 341334012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_15
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 97
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe4509e20dd4574cbd0fec967575219
+      internalID: 588165404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 81
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0aa66f6d62e0749ad8e1d3e906121c
+      internalID: -1441171500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_17
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 83
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205c7aacccc4fd64d89f0b7339723f0c
+      internalID: 1351591204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 90
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5838c5751c3501a419cd5a5ba2fe0f41
+      internalID: 326045047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_19
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 90
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec7bda2446a5ba4583b8f48179d212e
+      internalID: -1803206382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 90
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4f57825632de0429b4f77904829ba7
+      internalID: -72442055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_21
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 90
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708a9e83bd0afe7408e71b684795741f
+      internalID: 1697281012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_22
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 90
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ea5730d2025ed41b3485ebecdeeb6d
+      internalID: 513006077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f5cc8d0a9bab34e9a14b2410cc0776
+      internalID: 2021105774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 90
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69e58563e8c20a40877408f40eaaaa7
+      internalID: -2054039996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 90
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40981edb8d11124f98bbf175b615dbc
+      internalID: 350995735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_26
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 72
+        width: 54
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48da39203006ff6449a4081eaa15a7de
+      internalID: -1461784327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 72
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7ae604493bd3942b9be9fa83ea6864
+      internalID: -1415004050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 72
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de2f3f4144442b49acfa9243a829f49
+      internalID: 1890235053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_29
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 72
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e4f522d2ae55445a1fb7978baab699
+      internalID: 79855665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_30
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 72
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bfa7ea8a41515498088ecb694e6c89
+      internalID: 1477250154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1554bb8dd188d43b3b68fe669dac8a
+      internalID: -828195219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_32
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 72
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f601735350c0c4896670c4a6f0286f
+      internalID: 442625368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_33
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 74
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1b92d5822ee0a41953f21b5c7a519d
+      internalID: -1108060951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_34
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 74
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d350eb001751e54fb4a6da0ecf0a7da
+      internalID: -143184070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_35
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 74
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38012897bc463f94f9dc753933bd0b39
+      internalID: 1595259316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03fa176bb1d8ce4fba267baa25b1c98
+      internalID: 931593077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 56
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6eb3a93a9c3d094696038a130e94d4b
+      internalID: 1300261432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_38
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 54
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6bee3e25e431146b62f2f9e7202ed6
+      internalID: -1062594266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_39
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ca9fe8327017d4f92066b4521c7df2
+      internalID: -1965142812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_40
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e827d13b657a040a89c371b0250e0f
+      internalID: -1705600945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_41
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 55
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c36f2e7edcd9f9488037ea9f3d37b34
+      internalID: 1233044684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 56
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884158ebda4d00e49a62add113c0480f
+      internalID: 1223083961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_43
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 56
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491882f17584b8d4586bddabe21ad68c
+      internalID: -67307996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_44
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 58
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bdf5c000519cc4b85cc14f1f772215
+      internalID: 1096143860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_45
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 57
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee70fcec3c55554a90edbd57ffb92a5
+      internalID: 2007485612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_46
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 57
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a42cd691862b34782eda9078e699a4
+      internalID: 1220223097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_47
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 58
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f058c2f8646e974e9c206fdc8485036
+      internalID: -2004133101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 108
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584cadb52747e43448d4a946f29e62f6
+      internalID: 1178618584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_49
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 38
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a19398fa25b0346afdcfbf02abc8e1
+      internalID: -1654598140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 38
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ee7a68a432dec40a9bc4812e58e6e0
+      internalID: 1457262220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_51
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 36
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c6cbba7b9c6d14ebfcf200d83ea339
+      internalID: 1819230089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_52
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 36
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e36fd3d7ecf4374b9079edd546716b7
+      internalID: -1954792423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_53
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 36
+        width: 61
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c253d3abac923db4abc68033619c83ae
+      internalID: 1014299106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_54
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 19
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4410ba657cfbfdb4cbb97a359b16aa20
+      internalID: -471581162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_55
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 126
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18f957eaecaa1449b5f99e83aa78bf2
+      internalID: 1002563880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_itens_56
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964065ccfa76de34bb63cba362e9d842
+      internalID: -1522864557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      S_itens_0: -262774790
+      S_itens_1: -487087440
+      S_itens_10: 943168351
+      S_itens_11: -1955028118
+      S_itens_12: 426362456
+      S_itens_13: -1498145580
+      S_itens_14: 341334012
+      S_itens_15: 588165404
+      S_itens_16: -1441171500
+      S_itens_17: 1351591204
+      S_itens_18: 326045047
+      S_itens_19: -1803206382
+      S_itens_2: 276256856
+      S_itens_20: -72442055
+      S_itens_21: 1697281012
+      S_itens_22: 513006077
+      S_itens_23: 2021105774
+      S_itens_24: -2054039996
+      S_itens_25: 350995735
+      S_itens_26: -1461784327
+      S_itens_27: -1415004050
+      S_itens_28: 1890235053
+      S_itens_29: 79855665
+      S_itens_3: 1914331754
+      S_itens_30: 1477250154
+      S_itens_31: -828195219
+      S_itens_32: 442625368
+      S_itens_33: -1108060951
+      S_itens_34: -143184070
+      S_itens_35: 1595259316
+      S_itens_36: 931593077
+      S_itens_37: 1300261432
+      S_itens_38: -1062594266
+      S_itens_39: -1965142812
+      S_itens_4: 739162210
+      S_itens_40: -1705600945
+      S_itens_41: 1233044684
+      S_itens_42: 1223083961
+      S_itens_43: -67307996
+      S_itens_44: 1096143860
+      S_itens_45: 2007485612
+      S_itens_46: 1220223097
+      S_itens_47: -2004133101
+      S_itens_48: 1178618584
+      S_itens_49: -1654598140
+      S_itens_5: 2042541609
+      S_itens_50: 1457262220
+      S_itens_51: 1819230089
+      S_itens_52: -1954792423
+      S_itens_53: 1014299106
+      S_itens_54: -471581162
+      S_itens_55: 1002563880
+      S_itens_56: -1522864557
+      S_itens_6: -1634070695
+      S_itens_7: -636403922
+      S_itens_8: 1495098133
+      S_itens_9: -430100231
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

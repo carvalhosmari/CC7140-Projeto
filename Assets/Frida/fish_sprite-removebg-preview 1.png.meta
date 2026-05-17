@@ -1,0 +1,753 @@
+fileFormatVersion: 2
+guid: 50536d69883982b43b9d32467a35741b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1456319029233081456
+    second: fish_sprite-removebg-preview_0
+  - first:
+      213: 1864797641617349103
+    second: fish_sprite-removebg-preview_1
+  - first:
+      213: 4515932765794255174
+    second: fish_sprite-removebg-preview_2
+  - first:
+      213: 163611886547507225
+    second: fish_sprite-removebg-preview_3
+  - first:
+      213: -1493234058883679675
+    second: fish_sprite-removebg-preview_4
+  - first:
+      213: -65246529654677738
+    second: fish_sprite-removebg-preview_5
+  - first:
+      213: -4671433466193342701
+    second: fish_sprite-removebg-preview_6
+  - first:
+      213: -7867996624511791072
+    second: fish_sprite-removebg-preview_7
+  - first:
+      213: 3211550803118165916
+    second: fish_sprite-removebg-preview_8
+  - first:
+      213: 757339508950088860
+    second: fish_sprite-removebg-preview_9
+  - first:
+      213: 6156918453656561291
+    second: fish_sprite-removebg-preview_10
+  - first:
+      213: 1717507900424568104
+    second: fish_sprite-removebg-preview_11
+  - first:
+      213: 7543787523474173129
+    second: fish_sprite-removebg-preview_12
+  - first:
+      213: 9129319467229172654
+    second: fish_sprite-removebg-preview_13
+  - first:
+      213: -773119377908766062
+    second: fish_sprite-removebg-preview_14
+  - first:
+      213: -8407488735798625695
+    second: fish_sprite-removebg-preview_15
+  - first:
+      213: 2493080463045684137
+    second: fish_sprite-removebg-preview_16
+  - first:
+      213: -6316771384838099072
+    second: fish_sprite-removebg-preview_17
+  - first:
+      213: 567098981310144302
+    second: fish_sprite-removebg-preview_18
+  - first:
+      213: 3474389801509738518
+    second: fish_sprite-removebg-preview_19
+  - first:
+      213: 2175555463599016384
+    second: fish_sprite-removebg-preview_20
+  - first:
+      213: 1892035719744554018
+    second: fish_sprite-removebg-preview_21
+  - first:
+      213: 8835826871146520710
+    second: fish_sprite-removebg-preview_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 261
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093abee0f8d1acbe0800000000000000
+      internalID: -1456319029233081456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 262
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9969e239711e910800000000000000
+      internalID: 1864797641617349103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 255
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641c6be8ce0dbae30800000000000000
+      internalID: 4515932765794255174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 257
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91812bad424454200800000000000000
+      internalID: 163611886547507225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 266
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a39b1f887f64be0800000000000000
+      internalID: -1493234058883679675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 271
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f1b1180a2381ff0800000000000000
+      internalID: -65246529654677738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 266
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f8ca7430cbb2fb0800000000000000
+      internalID: -4671433466193342701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 223
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0209006a1c24fc290800000000000000
+      internalID: -7867996624511791072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 224
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f8afd9078b19c20800000000000000
+      internalID: 3211550803118165916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 261
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cb655554c928a00800000000000000
+      internalID: 757339508950088860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 223
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b862f3d76b4c17550800000000000000
+      internalID: 6156918453656561291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 223
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dbbbfe550d5d710800000000000000
+      internalID: 1717507900424568104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 222
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cca3bda8cae0b860800000000000000
+      internalID: 7543787523474173129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 258
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3d04dafabd1be70800000000000000
+      internalID: 9129319467229172654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 223
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ae6ce95045545f0800000000000000
+      internalID: -773119377908766062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 255
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16aff912a89925b80800000000000000
+      internalID: -8407488735798625695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 255
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abed44e873399220800000000000000
+      internalID: 2493080463045684137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 220
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f6f57a4e15658a0800000000000000
+      internalID: -6316771384838099072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 220
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f1a75d48dbed700800000000000000
+      internalID: 567098981310144302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 118
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6185a3acd13873030800000000000000
+      internalID: 3474389801509738518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 117
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9caf4ea20213e10800000000000000
+      internalID: 2175555463599016384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 115
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22489b1767cd14a10800000000000000
+      internalID: 1892035719744554018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 114
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6802a8f99b92f9a70800000000000000
+      internalID: 8835826871146520710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish_sprite-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 117
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0415dc6fc8efc8f4a88a40733134f20d
+      internalID: 831655629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 92deda35f86a1934a98defdbbb4696dd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      fish_sprite-removebg-preview_0: -1456319029233081456
+      fish_sprite-removebg-preview_1: 1864797641617349103
+      fish_sprite-removebg-preview_10: 6156918453656561291
+      fish_sprite-removebg-preview_11: 1717507900424568104
+      fish_sprite-removebg-preview_12: 7543787523474173129
+      fish_sprite-removebg-preview_13: 9129319467229172654
+      fish_sprite-removebg-preview_14: -773119377908766062
+      fish_sprite-removebg-preview_15: -8407488735798625695
+      fish_sprite-removebg-preview_16: 2493080463045684137
+      fish_sprite-removebg-preview_17: -6316771384838099072
+      fish_sprite-removebg-preview_18: 567098981310144302
+      fish_sprite-removebg-preview_19: 3474389801509738518
+      fish_sprite-removebg-preview_2: 4515932765794255174
+      fish_sprite-removebg-preview_20: 2175555463599016384
+      fish_sprite-removebg-preview_21: 1892035719744554018
+      fish_sprite-removebg-preview_22: 8835826871146520710
+      fish_sprite-removebg-preview_23: 831655629
+      fish_sprite-removebg-preview_3: 163611886547507225
+      fish_sprite-removebg-preview_4: -1493234058883679675
+      fish_sprite-removebg-preview_5: -65246529654677738
+      fish_sprite-removebg-preview_6: -4671433466193342701
+      fish_sprite-removebg-preview_7: -7867996624511791072
+      fish_sprite-removebg-preview_8: 3211550803118165916
+      fish_sprite-removebg-preview_9: 757339508950088860
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

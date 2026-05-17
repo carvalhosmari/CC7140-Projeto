@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Persistent singleton that carries the selected game mode across scenes.
@@ -18,6 +19,12 @@ public class GameManager : MonoBehaviour
     /// <summary>Lives remaining across the current run. Reset when starting a new game.</summary>
     public int CurrentLives { get; private set; } = MaxLives;
 
+    /// <summary>Total score accumulated across all completed phases.</summary>
+    public int AccumulatedScore { get; private set; } = 0;
+
+    /// <summary>Score at the start of the current phase. Used to roll back on respawn.</summary>
+    public int PhaseStartScore { get; private set; } = 0;
+
     /// <summary>Decrements one life. Returns true if any lives remain.</summary>
     public bool ConsumeLife()
     {
@@ -32,6 +39,38 @@ public class GameManager : MonoBehaviour
         CurrentLives = MaxLives;
     }
 
+    /// <summary>
+    /// Called when entering a new phase. Snapshots AccumulatedScore so a respawn
+    /// can roll back to it without losing progress from previous phases.
+    /// </summary>
+    public void BeginPhase()
+    {
+        PhaseStartScore = AccumulatedScore;
+    }
+
+    /// <summary>Saves the total score when the player completes a phase.</summary>
+    public void SaveScore(int totalScore)
+    {
+        AccumulatedScore = totalScore;
+    }
+
+    /// <summary>
+    /// Rolls back AccumulatedScore to the value it had at the start of the current phase.
+    /// Called before reloading the scene on respawn.
+    /// </summary>
+    public void RollbackScore()
+    {
+        AccumulatedScore = PhaseStartScore;
+    }
+
+    /// <summary>Resets the score completely (call when starting a new game).</summary>
+    public void ResetScore()
+    {
+        AccumulatedScore = 0;
+        PhaseStartScore = 0;
+    }
+
+    
     void Awake()
     {
         // Restore timescale in case it was paused by a previous session.
@@ -54,5 +93,11 @@ public class GameManager : MonoBehaviour
     {   
         // Destroy(gameObject);
         CurrentGameMode = mode;
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quitting game...");
+        Application.Quit();
     }
 }

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 175690085281284236}
   m_Layer: 0
   m_Name: Banana
-  m_TagString: Fruit
+  m_TagString: Fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.67, y: -1.3550164, z: 0}
-  m_LocalScale: {x: 2.5239751, y: 2.5239751, z: 2.5239751}
+  m_LocalScale: {x: 0.233, y: 0.233, z: 0.233}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4440640159321916419}
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -5728686177044832811, guid: b1f24b3bc2e2f1d4b858657ad5c115a0, type: 3}
+  m_Sprite: {fileID: -7867996624511791072, guid: b7eb3b6205972ce4cb181d6747f20b08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,7 +105,7 @@ Animator:
   m_GameObject: {fileID: 4794273896101490758}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 293c182e0397813428419c5efa060b95, type: 2}
+  m_Controller: {fileID: 9100000, guid: 22c67b3326025724b9beed9e17280bf6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -130,6 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   collected: {fileID: 4474995877032082220}
+  scoreValue: 10
 --- !u!58 &175690085281284236
 CircleCollider2D:
   m_ObjectHideFlags: 0

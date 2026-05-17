@@ -4,6 +4,9 @@ public class Fire : MonoBehaviour
 {
     private Animator animator;
     private CapsuleCollider2D coll;
+
+    // Guard to prevent dealing damage more than once per player contact.
+    private bool hasDealtDamage = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,7 +22,6 @@ public class Fire : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.tag == "Player") {
-            Debug.Log("Player hit fire!"); // Log a message when the player hits fire
             animator.SetTrigger("hit"); // Trigger the hit animation when the player collides with the fire
 
             animator.SetBool("fire", true); // Set the burn parameter to true to start the burning animation
@@ -33,8 +35,11 @@ public class Fire : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
+        if (hasDealtDamage) return;
+
         if (collider.gameObject.CompareTag("Player"))
         {
+            hasDealtDamage = true;
             GameController.instance.TakeDamage();
         }
     }
