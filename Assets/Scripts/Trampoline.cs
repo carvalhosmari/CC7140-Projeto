@@ -18,6 +18,8 @@ public class Trampoline : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
 
             animator.SetTrigger("jump"); // Trigger the bounce animation when the player collides with the trampoline
+
+            AudioManager.Instance?.Play(AudioManager.Instance.clipJump);
         }
     }
 }

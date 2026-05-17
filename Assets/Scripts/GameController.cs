@@ -40,6 +40,10 @@ public class GameController : MonoBehaviour
 
         UpdateScoreText();
         UpdateLivesText();
+
+        // Start in-game ambient music.
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayGameMusic();
     }
 
     /// <summary>Updates the score HUD with the current score value.</summary>
@@ -89,9 +93,20 @@ public class GameController : MonoBehaviour
         if (timerController != null)
             timerController.StopTimer();
 
+        // Show the lives reaching zero before resetting, so the HUD reflects 0 while
+        // the panel is visible. Reset happens after the panel is shown.
+        if (livesText != null)
+            livesText.text = "0";
+
+        gameOverPanel.SetActive(true);
+
+        // Switch to game over music.
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayGameOverMusic();
+
+        // Reset persistent state only after the panel is displayed.
         GameManager.Instance.ResetLives();
         GameManager.Instance.ResetScore();
-        gameOverPanel.SetActive(true);
     }
 
     /// <summary>Persists the current score and stops the timer when the player completes the phase.</summary>
@@ -114,6 +129,11 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1;
         GameManager.Instance.ResetLives();
         GameManager.Instance.ResetScore();
+
+        // Stop current music so the menu can start its own track cleanly.
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.StopMusic();
+
         SceneManager.LoadScene("Menu");
         Debug.Log("Restarting game...");
     }

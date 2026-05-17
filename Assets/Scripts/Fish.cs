@@ -34,6 +34,8 @@ public class Fish : MonoBehaviour
 
             GameController.instance.UpdateScoreText(); // Update the score text in the UI
 
+            AudioManager.Instance?.Play(AudioManager.Instance.clipCoin);
+
             Destroy(gameObject, 0.5f); // Destroy the fish after a short delay to allow the effect to play
         }
     }

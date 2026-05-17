@@ -40,6 +40,7 @@ public class Fire : MonoBehaviour
         if (collider.gameObject.CompareTag("Player"))
         {
             hasDealtDamage = true;
+            AudioManager.Instance?.Play(AudioManager.Instance.clipDamage);
             GameController.instance.TakeDamage();
         }
     }

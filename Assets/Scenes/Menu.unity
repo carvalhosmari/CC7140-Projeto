@@ -558,6 +558,7 @@ GameObject:
   - component: {fileID: 1043637764}
   - component: {fileID: 1043637763}
   - component: {fileID: 1043637765}
+  - component: {fileID: 1043637766}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -604,6 +605,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34f68b5afe9190045944bd55b639444b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuController
+--- !u!114 &1043637766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043637762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff8a81346f077c469e1183f3d58a7f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  clipHit: {fileID: 8300000, guid: aa2fcafe8628340078c5a01209215a07, type: 3}
+  clipJump: {fileID: 8300000, guid: 76f8c00779b924bd1afa3e7a8ca2fa3e, type: 3}
+  clipCoin: {fileID: 8300000, guid: 23dacc4e032dc4e8dad8bcce34325da9, type: 3}
+  clipDamage: {fileID: 8300000, guid: 4a4a86cfb191b4dcb9489041229fb787, type: 3}
+  clipExplosion: {fileID: 8300000, guid: 9b30d51da439e4c8d95fbdfcf5efebff, type: 3}
+  clipMainMenu: {fileID: 8300000, guid: b6891bf38a3df44b29d9271a7acfea03, type: 3}
+  clipGame: {fileID: 8300000, guid: 3a7ba00d1fa32c4499dd83726e940f60, type: 3}
+  clipGameOver: {fileID: 8300000, guid: 2d2be9ad9f9294fda8292aefe64d92ee, type: 3}
+  musicVolume: 0.25
 --- !u!1 &1165620507
 GameObject:
   m_ObjectHideFlags: 0

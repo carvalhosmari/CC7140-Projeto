@@ -59,7 +59,8 @@ public class Player : MonoBehaviour
         {
             if (!isJumping)
             {
-                rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse); 
+                rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+                isJumping = true;  // Mark as airborne immediately to prevent instant double-jump
                 doubleJump = true; // Allow double jump after the first jump
                 animator.SetBool("jump", true); // Set jump animation to true when jumping
             } else 
@@ -84,6 +85,7 @@ public class Player : MonoBehaviour
             collider.gameObject.CompareTag("Dog"))
         {
             isDead = true;
+            AudioManager.Instance?.Play(AudioManager.Instance.clipDamage);
             GameController.instance.TakeDamage();
         }
     }

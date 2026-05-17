@@ -11,6 +11,9 @@ public class Box : MonoBehaviour
     public GameObject wall; // Reference to the wall GameObject
     public GameObject collected;
 
+    // Guard to prevent the destruction block from running more than once.
+    private bool isDestroyed = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,13 +27,17 @@ public class Box : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        if (health <= 0) 
+        if (health <= 0 && !isDestroyed) 
         {
+            isDestroyed = true;
             spriteRenderer.enabled = false; // Hide the box's sprite when its health reaches 0
             collider.enabled = false; // Disable the box's collider when its health reaches 0
             collected.SetActive(true); // Show the collected box effect
+            wall.SetActive(false); // Deactivate the wall when the box is destroyed
+
+            AudioManager.Instance?.Play(AudioManager.Instance.clipExplosion);
+
             Destroy(gameObject, .5f); // Destroy the box when its health reaches 0
-            wall.SetActive(false); // Deactivate the wall when the box is destroyed 
         } 
     }
 
@@ -49,6 +56,7 @@ public class Box : MonoBehaviour
             health--; // Decrease the box's health by 1 when the player collides with it
             animator.SetTrigger("hit"); // Trigger the hit animation when the player collides with the box
 
+            AudioManager.Instance?.Play(AudioManager.Instance.clipHit);
         }
     }
 }

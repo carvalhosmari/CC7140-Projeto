@@ -1,25 +1,21 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndGame : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (GameController.instance == null)
+        // Ensure persistent state is clean when reaching the final screen.
+        if (GameManager.Instance != null)
         {
-            var go = new GameObject("GameController");
-            go.AddComponent<GameController>();
+            GameManager.Instance.ResetLives();
+            GameManager.Instance.ResetScore();
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    /// <summary>Called by the Reset button on the final screen. Returns to the main menu.</summary>
     public void RestartGame()
     {
-        GameController.instance.RestartGame();
+        SceneManager.LoadScene("Menu");
     }
 }

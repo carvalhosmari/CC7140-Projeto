@@ -8,6 +8,9 @@ public class FallingPlatform : MonoBehaviour
     private TargetJoint2D targetJoint; // Reference to the TargetJoint2D component
     private BoxCollider2D boxCollider; // Reference to the BoxCollider2D component
 
+    // Guard to prevent multiple Invoke calls from stacking if the player lands more than once.
+    private bool isFalling = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,8 +26,9 @@ public class FallingPlatform : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player") 
+        if (collision.gameObject.tag == "Player" && !isFalling)
         {
+            isFalling = true;
             Invoke("Fall", fallingTime); // Schedule the Fall method to be called after fallingTime seconds
         }
     }
